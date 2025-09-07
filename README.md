@@ -19,5 +19,11 @@ Run `npm install` to get all the dependencies of the project. (First time only)
 Now run `npm start` to run the app locally :rocket:
 It will open a browser which will direct you to the app, and every time you save changes in your text editor it will update live. 
 
+Inside 'src/images' you need to create the bot_icons and zone_icons directories.
+The robot icons should be placed in the 'bot_icons' directory, and the island icons in the 'zone_icons' directory. The icon sizes are 64x64, the icon extension is one of (png|jpg|jpeg|webp|gif|svg).
+
+The names of the robot icons and zones must match their names, following the rule:
+spaces must be replaced with the '_' character. names
+
 *Note: The repository does not contain the image resources, so locally you will not see robot-icons.*
  *Hit us up on Discord if you want them! ~ https://discord.gg/e4gH9Ff*
