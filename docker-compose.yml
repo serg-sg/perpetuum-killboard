@@ -1,0 +1,21 @@
+services:
+  open-perpetuum-killboard:
+    image: node:lts
+    container_name: open-perpetuum-killboard
+    environment:
+      - TZ=Europe/Budapest
+    command:
+      - /bin/bash
+      - -c
+      - |
+        cd /app/
+        ls -la
+        npm install -g npm@latest
+        npm i
+        npm start
+    hostname: opkillboard
+    volumes:
+      - ./perpetuum-killboard:/app
+    ports:
+      - 3000:3000
+    restart: always

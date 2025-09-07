@@ -4,3 +4,11 @@
 
 #except the ignore
 !.gitignore
+
+**/*.gif
+**/*.png
+**/*.jpg
+**/*.jpeg
+**/*.webp
+**/*.gif
+**/*.svg
